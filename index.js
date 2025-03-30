@@ -9,5 +9,6 @@ const increment = () => {
 const saveEntries = () => {
     let save = counterScreen.innerText;
     prevEntries.innerText = "Previous Entries: " + save;
-    console.log(save);
+    count = 0;
+    counterScreen.innerText = 0;
 }
