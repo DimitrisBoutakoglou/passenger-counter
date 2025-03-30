@@ -53,6 +53,14 @@ body{
     margin: 0px 40px 0px 40px;
 }
 
+#update-btn:hover , #save-btn:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+#reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(183, 37, 37);
+}
 
 #prevEntries{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
