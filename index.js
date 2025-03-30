@@ -8,7 +8,14 @@ const increment = () => {
 }
 const saveEntries = () => {
     let save = counterScreen.innerText;
-    prevEntries.innerText = "Previous Entries: " + save;
+    prevEntries.innerText = prevEntries.innerText +" " + save + " - ";
     count = 0;
+    counterScreen.innerText = 0;
+    console.log(save);
+    
+}
+
+const reset = () => {
+    prevEntries.innerText = "Previous Entries:" + " ";
     counterScreen.innerText = 0;
 }
